@@ -1,0 +1,106 @@
+Created by testinium on 7.12.2021
+
+This is a concept file with following syntax for each concept.
+# Uygulamanın Açıldığı Kontrol Edilir
+* "5" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/textView" id'li element "Mağazadan Alışveriş" text değerini içerdiğini kontrol et
+* "3" saniye bekle
+
+# Alışverişe Başla Butonuna Tıklanır
+*"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id'li elemente tıkla
+* "3" saniye bekle
+
+# Alışveriş Sayfasının Açıldığı Doğrulanır
+*"com.ozdilek.ozdilekteyim:id/tvMarketName" id'li element "Market" text değerini içerdiğini kontrol et
+* "3" saniye bekle
+
+# Kategoriler Sayfası Açılır
+*"com.ozdilek.ozdilekteyim:id/nav_categories" id'li elemente tıkla
+* "3" saniye bekle
+
+# Kategoriler Sayfasının Açıldığı Doğrulanır
+*"(//*[@text='Kategoriler'])[1]" xpath'li element "Kategoriler" text değerini içerdiğini kontrol et
+* "3" saniye bekle
+
+# Menüden Kadın Seçeneğine Tıklanır
+*"//androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[2]" xpath'li elemente tıkla
+* "3" saniye bekle
+
+# Pantolon Kategorisi Açılır
+*"//*[@text='Pantolon']" xpath'li elemente tıkla
+* "3" saniye bekle
+
+# Sayfanın En Aşağısına Doğru İki Kez Scroll Yapılır
+*aşağıya doğru iki kez scroll edilir
+* "3" saniye bekle
+
+# Tekrar Random Ürün Seçilir
+*random ürün seçilir
+* "3" saniye bekle
+
+# Ürün Detay Sayfasının Açıldığı Kontrol Edilir
+*"//*[@text='Beden Tablosu']" xpath'li element "Beden Tablosu" text değerini içerdiğini kontrol et
+* "3" saniye bekle
+
+# Favoriler Butonuna Tıklanır
+*"//*[@text='Listeme Ekle']" xpath'li elemente tıkla
+* "3" saniye bekle
+
+# Giriş Yapma Sayfasının Açıldığı Doğrulanır
+*"//*[@text='Facebook ile Bağlan']" xpath'li element "Facebook ile Bağlan" text değerini içerdiğini kontrol et
+* "3" saniye bekle
+
+# Kullanıcı Adı Alanına Text Bilgisi Girilir,Password Alanına Şifre Yazılır
+*kullanıcı alanına bilgiler girilir
+* "3" saniye bekle
+
+# Geri Butonuna İki Kere Tıklanır
+*"com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+* "3" saniye bekle
+*"com.ozdilek.ozdilekteyim:id/ivBack" id'li elemente tıkla
+* "3" saniye bekle
+
+# Random Ürün Seçilir
+*random ürün seçilir
+* "3" saniye bekle
+*"//*[@text='40']" xpath'li elemente tıkla
+* "3" saniye bekle
+
+# Seçilen Ürün Sepete Eklenir
+*"//*[@text='SEPETE EKLE']" xpath'li elemente tıkla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
